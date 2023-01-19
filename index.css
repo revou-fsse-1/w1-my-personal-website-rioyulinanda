@@ -1,0 +1,33 @@
+body{
+    background: url(/Images/background.JPG) no-repeat fixed center;
+    background-position: left;
+    background-color: white;
+    background-size: 40%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: wheat;
+    margin: 50px
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    position: no-repeat fixed;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-right {
+    display: flex;
+}
+
+.header-right {
+    left: 50%;
+}
