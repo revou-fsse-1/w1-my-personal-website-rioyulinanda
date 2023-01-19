@@ -1,19 +1,25 @@
 body{
     background: url(/Images/background.JPG) no-repeat fixed center;
     background-position: left;
-    background-color: white;
+    background-color: black;
     background-size: 40%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: wheat;
-    margin: 50px
+    margin: 50px;
+    overflow: hidden;
 }
 
+
+/* NAVIGATION */
 .navigation{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
+    color: wheat;
+    align-items: top;
+    min-height: 75px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 24px;
 }
 
 .logo {
@@ -26,8 +32,51 @@ body{
 
 .navigation-right {
     display: flex;
+    gap: 10px;
+    font-family: "Courier New";
 }
 
+/* HEADER */
+.header {
+    display : flex;
+    justify-content: center;
+    gap: 30px;
+    min-height: 700px;
+}
 .header-right {
-    left: 50%;
+    display: inline;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    padding: 60px;
+    max-width: 500px;
+    min-height: 450px;
+    gap: 10px;
+    
+}
+
+h4 {
+    display: flex;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 5px;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    margin: 5px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 10px;
+}
+
+h4, h1, p {
+    font-family: "Courier New";
 }
