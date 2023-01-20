@@ -1,0 +1,45 @@
+body {
+  background: url(/images/background.JPG) no-repeat fixed center;
+  background-position: left;
+  background-color: black;
+  background-size: 40%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: wheat;
+  margin: 50px;
+  overflow: hidden;
+}
+
+.logo {
+  position: no-repeat fixed;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  margin-left: -40px;
+  margin-top: -40px;
+}
+
+h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: "Courier New";
+  color: wheat;
+}
+
+ul li a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: "Courier New";
+  color: wheat;
+}
+
+li {
+  list-style-type: none;
+}
