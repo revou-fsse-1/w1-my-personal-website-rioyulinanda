@@ -105,3 +105,8 @@ button {
   margin-left: 9px;
   font-weight: bold;
 }
+
+footer {
+  position: absolute;
+  bottom: 15px;
+}
