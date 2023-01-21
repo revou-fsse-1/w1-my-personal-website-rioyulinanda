@@ -1,8 +1,13 @@
 body {
-  background: url(/Images/background.JPG) no-repeat fixed center;
+  width: 100%;
+  height: 200px;
+  border-bottom: 1px black;
+  background-image: url("/images/background.jpg");
   background-position: left;
   background-color: black;
-  background-size: 40%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-family: "Courier New";
   color: wheat;
   margin: 50px;
@@ -17,7 +22,7 @@ body {
   align-items: top;
   min-height: 75px;
   padding-left: 30px;
-  padding-right: 30px;
+  padding-right: 100px;
   font-size: 24px;
 }
 
@@ -47,8 +52,8 @@ li {
   color: black;
   background-color: wheat;
   text-decoration: none;
-  padding: 10px;
-  border-radius: 8px;
+  padding: 5px;
+  border-radius: 20px;
   font-weight: bold;
 }
 
@@ -65,8 +70,7 @@ li {
   justify-content: center;
   align-items: center;
   margin-left: 400px;
-  background: black;
-  padding: 60px;
+  padding: 200px;
   max-width: 500px;
   min-height: 450px;
   gap: 10px;
@@ -99,11 +103,11 @@ button {
   background-color: wheat;
   text-decoration: none;
   padding: 10px;
-  border-radius: 8px;
+  border-radius: 20px;
+  font-size: 15px;
   font-weight: bold;
   font-family: "Courier New";
   margin-left: 9px;
-  font-weight: bold;
 }
 
 footer {
